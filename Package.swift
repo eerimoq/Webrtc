@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .target(name: "Webrtc", dependencies: ["libdatachannel"]),
         .binaryTarget(name: "libdatachannel",
-                      url: "https://github.com/eerimoq/libdatachannel-xcframework/releases/download/v0.27.0/libdatachannel.xcframework.zip",
-                      checksum: "688f43c0c1394c2edd85be41186fcf3a486128c3bf77439be5fa7def843d27a9"),
+                      url: "https://github.com/eerimoq/xcframeworks/releases/download/libdatachannel-0.27.0/libdatachannel.xcframework.zip",
+                      checksum: "fc6e60d89558044028f24c4793310e4172c46fd984f80e9f9e76497cd5a46e10"),
     ]
 )
