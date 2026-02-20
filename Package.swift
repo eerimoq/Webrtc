@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "Webrtc",
+    name: "DataChannel",
     platforms: [
         .iOS(.v16)
     ],
     products: [
         .library(
-            name: "Webrtc",
-            targets: ["Webrtc", "libdatachannel"]
+            name: "DataChannel",
+            targets: ["DataChannel", "libdatachannel"]
         ),
     ],
     targets: [
-        .target(name: "Webrtc", dependencies: ["libdatachannel"]),
+        .target(name: "DataChannel", dependencies: ["libdatachannel"]),
         .binaryTarget(name: "libdatachannel",
                       url: "https://github.com/eerimoq/xcframeworks/releases/download/libdatachannel-0.27.0/libdatachannel.xcframework.zip",
                       checksum: "fc6e60d89558044028f24c4793310e4172c46fd984f80e9f9e76497cd5a46e10"),

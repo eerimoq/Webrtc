@@ -1,6 +1,6 @@
 import libdatachannel
 
-public enum WebrtcConnectionState {
+public enum DataChannelConnectionState {
     case new
     case connecting
     case connected
@@ -28,7 +28,7 @@ public enum WebrtcConnectionState {
     }
 }
 
-public enum WebrtcGatheringState {
+public enum DataChannelGatheringState {
     case new
     case inProgress
     case complete
